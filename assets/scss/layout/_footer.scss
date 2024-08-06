@@ -1,4 +1,38 @@
-.footer{
-  background: #69F0AE;
-  font-size: 64px;
-}
+    .footer {
+      background-color: #990000; /* 設定背景顏色 */
+      color: #fff; /* 設定文字顏色 */
+      padding: 20px 0; /* 設定內邊距 */
+    }
+    .footer .nav-item {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    .footer .contact-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .footer .contact-info i {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    .footer .social-icons i {
+      font-size: 24px;
+      margin: 0 10px;
+    }
+    .footer .copyright {
+      border-top: 1px solid #fff;
+      padding-top: 10px;
+      text-align: center;
+    }
+    .footer .policy {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .footer .policy a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+    }
