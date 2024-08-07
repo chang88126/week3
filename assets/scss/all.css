@@ -382,10 +382,17 @@ a {
   padding: 2px;
 }
 
-.footer-icon li {
+.footer-nav .a:hover {
+  color: #9F1213;
+  background-color: #FFFFFF;
+}
+
+.footer-social {
+  gap: 32px;
+}
+
+.footer .img {
   width: 48px;
-  list-style: none;
-  margin-right: 32px;
 }
 
 .foo {
@@ -404,6 +411,23 @@ a {
 
 .footer .right span {
   margin-left: 20px;
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: flex-start; /* 或 center，取决于您想要的对齐方式 */
+  align-items: center;
+  padding: 10px;
+}
+
+.social-icon {
+  width: 30px; /* 调整大小 */
+  height: 30px;
+  margin-right: 15px; /* 图标间距 */
+}
+
+.social-icon:last-child {
+  margin-right: 0;
 }
 
 .footer {
